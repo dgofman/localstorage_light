@@ -38,7 +38,6 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-*.yaml
 *.lock
 .metadata
 /android/
@@ -47,3 +46,4 @@ app.*.map.json
 /macos/
 /web/
 /windows/
+analysis_options.yaml
