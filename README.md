@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-```
+```dart
 final localStorage = await LocalStorage.init('my_localstore_test');
 print(localStorage.getItem('hello')); //null
 await localStorage.setItem('hello', 'HELLO');
