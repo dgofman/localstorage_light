@@ -3,6 +3,8 @@
 ## Getting Started
 
 ```dart
+import 'package:localstorage_light/main.dart';
+
 final localStorage = await LocalStorage.init('my_localstore_test');
 print(localStorage.getItem('hello')); //null
 await localStorage.setItem('hello', 'HELLO');
